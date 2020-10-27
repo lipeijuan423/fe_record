@@ -171,6 +171,16 @@
         1、 promise
         ----- 题-----
         1、flat
+DOM 
+    document object model 文档对象模型
+    Document根节点包含子节点：forms、embeds、anchors、images、links
+    --- 题---
+    1、获取当前页面上所有节点
+BOM
+    browser object model 浏览器对象模型
+    Window对象包含属性：document、location、navigator、screen、history、frames
+    1、 history API
+
 - TS 
     1. 装饰器
     2.比较优点
@@ -212,6 +222,7 @@
     3、加密
     2、cookie、session、token。
     1、常见状态码
+        > 301 302客户端
     2、缓存
         200 From cache和200 ok
         400,401,403状态码分别代表什么
@@ -245,6 +256,7 @@
     11、viewport和dpi适配
     12、Touch/Gesture事件及封装处理
     13、DIALOG模态框组件的封装
+    14、视口区别: viewport 
 - 微信小程序
     微信小程序和h5差异，如果有开发weex的经验，可能会加上weex
     
@@ -254,6 +266,9 @@
         2、打包插件
         3、webpack热更新原理
         4、优化构建速度
+        5、loader
+            > css-loader
+            > babel-loader 
     包管理工具 npm
         1. 读取顺序
         2. 插件
@@ -330,6 +345,9 @@
     2.express
     3.中间件
     4.事件机制
+多端开发
+    ----- 题 -----
+    1、Native 监听页面渲染性能
 GIT
     git基本命令
 - 前沿技术
@@ -460,13 +478,26 @@ GIT
     7、加密策略
     8、用户鉴权
     9、存储方案
-    10、Docker
+    10、Docker、k8s
     11、多端
+    12、git flow
+    
 
 公司架构
+    启动 node app.js 
+            koa
+    理解 npm run dev - spa 单页应用
+            npm run build / 部署到testing ; 模块spa , 页面spa
 
 源码扩展: 
     jquery
     vue
     react
     lodash
+    vue-router
+    react-router
+    vuex\redux\flux\mobx
+
+拓展题:
+    语义解析: 解析template => ast  
+    ssr \ csr \ mpa \ spa 概念理解
