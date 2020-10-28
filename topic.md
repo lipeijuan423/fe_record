@@ -464,6 +464,7 @@
   2、数据库 mysql、redis、mongodb；sql 的操作语句、mongodb 的操作语句、redis 的操作语句。
   3、node + express 搭建本地服务等。
   4、python + django + request + scrapy。
+  5、shell.js
 
 - 系统编程
   1、Linux 命令行操作、系统文件管理。
@@ -497,6 +498,12 @@
 项目:
 1、规范
 2、工程化
+    - webpack 
+    - git commit / git hooks
+    - jenkins / travis CI
+    - Docker / k8s
+    - ci /cd
+
 3、性能优化:骨架屏、ssr、webpack
 4、测试: mocha
 5、性能监控 > 前端监控目标 > 监控 Js promise 资源加载错误 > 接口异常采集 > 白屏和加载时间 > 性能指标和卡顿 > pv 和 用户停留时间
@@ -521,7 +528,7 @@ npm run build / 部署到 testing ; 模块 spa , 页面 spa
 jquery
 vue
 react
-lodash
+lodash [get \ 数组去重]
 vue-router
 react-router
 vuex\redux\flux\mobx
@@ -530,3 +537,4 @@ vuex\redux\flux\mobx
 1、语义解析: 解析 template => ast  
 2、ssr \ csr \ mpa \ spa 概念理解
 3、V8 内存管理： > 1. js 垃圾收集、内存管理 > 2. V8 回收机制分类 > 3. 引用计数、标记清除、增量标记
+
