@@ -351,6 +351,8 @@
   14、PWA
   15、GraphQL
   16、cheerio + mysql + nodemailer 个性化新闻爬虫
+  17、Deno
+  18、LiteElement、svelte、stencil
 
 - QA 调试
   前端: 1. debugger 2.事件绑定 3.audits 4.performance 5.timing 6.sourceMap
@@ -469,7 +471,15 @@
 - 系统编程
   1、Linux 命令行操作、系统文件管理。
   2、多任务、多线程、多进程、协程、并发、并行、串行、同步、异步等概念的理解。
-
+- 架构模式
+    1、BFF
+        - back-end For front-end
+    2、业务中台
+    3、Paas Iaas  [aws gcp] saas
+        - 云计算服务
+        - Infrastructure as a service  = 安装管理应用程序，甚至是有权管理网络组件 - 用户可以在云服务提供商提供的基础设施上部署和运行任何软件，包括操作系统和应用软件– 基础设施即服务 IaaS服务有虚拟机、虚拟网络、以及存储
+        - Platform as a service – 平台即服务 - 服务有数据库服务、web应用以及容器服务。
+        - Software as a Service – 软件即服务 - 服务有：各类的网盘(Dropbox、百度网盘等)，JIRA，GitLab
 - 附加题
   1、无限滚动方案
   2、如何处理兼容性问题
@@ -517,12 +527,15 @@
 12、git flow
 13、cli 命令行工具
 14、npm 包
+15、可配置页面
 
 公司架构
 启动 node app.js
 koa
 理解 npm run dev - spa 单页应用
 npm run build / 部署到 testing ; 模块 spa , 页面 spa
+
+
 
 源码扩展:
 jquery
