@@ -353,6 +353,7 @@
   16、cheerio + mysql + nodemailer 个性化新闻爬虫
   17、Deno
   18、LiteElement、svelte、stencil
+  19、webComponent
 
 - QA 调试
   前端: 1. debugger 2.事件绑定 3.audits 4.performance 5.timing 6.sourceMap
