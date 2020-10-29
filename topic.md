@@ -256,7 +256,8 @@
   4、优化构建速度
   5、loader > css-loader > babel-loader
   包管理工具 npm 1. 读取顺序 2. 插件
-
+    gulp 流清洗
+    rullup
 - 框架
   概念:MVC/MVVM 状态管理
   Vue
@@ -552,3 +553,5 @@ vuex\redux\flux\mobx
 2、ssr \ csr \ mpa \ spa 概念理解
 3、V8 内存管理： > 1. js 垃圾收集、内存管理 > 2. V8 回收机制分类 > 3. 引用计数、标记清除、增量标记
 
+必要练习:
+    1、CI : git hooks -> jenkins [dist] -> 免密 ssh 部署 [scp \ shell [启动node]]
