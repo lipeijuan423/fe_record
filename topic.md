@@ -256,8 +256,8 @@
   4、优化构建速度
   5、loader > css-loader > babel-loader
   包管理工具 npm 1. 读取顺序 2. 插件
-    gulp 流清洗
-    rullup
+  gulp 流清洗
+  rullup
 - 框架
   概念:MVC/MVVM 状态管理
   Vue
@@ -453,6 +453,9 @@
   6、操作系统
   7、软件测试原理
   8、设计模式
+  9、编译原理
+
+  > JIT
 
   > UML 模型图
   > -- 类图和对象图 【依赖关系、泛化关系、实现关系、关联关系、聚合关系、组合关系】
@@ -474,14 +477,9 @@
   1、Linux 命令行操作、系统文件管理。
   2、多任务、多线程、多进程、协程、并发、并行、串行、同步、异步等概念的理解。
 - 架构模式
-    1、BFF
-        - back-end For front-end
-    2、业务中台
-    3、Paas Iaas  [aws gcp] saas
-        - 云计算服务
-        - Infrastructure as a service  = 安装管理应用程序，甚至是有权管理网络组件 - 用户可以在云服务提供商提供的基础设施上部署和运行任何软件，包括操作系统和应用软件– 基础设施即服务 IaaS服务有虚拟机、虚拟网络、以及存储
-        - Platform as a service – 平台即服务 - 服务有数据库服务、web应用以及容器服务。
-        - Software as a Service – 软件即服务 - 服务有：各类的网盘(Dropbox、百度网盘等)，JIRA，GitLab
+  1、BFF - back-end For front-end
+  2、业务中台
+  3、Paas Iaas [aws gcp] saas - 云计算服务 - Infrastructure as a service = 安装管理应用程序，甚至是有权管理网络组件 - 用户可以在云服务提供商提供的基础设施上部署和运行任何软件，包括操作系统和应用软件– 基础设施即服务 IaaS 服务有虚拟机、虚拟网络、以及存储 - Platform as a service – 平台即服务 - 服务有数据库服务、web 应用以及容器服务。 - Software as a Service – 软件即服务 - 服务有：各类的网盘(Dropbox、百度网盘等)，JIRA，GitLab
 - 附加题
   1、无限滚动方案
   2、如何处理兼容性问题
@@ -509,12 +507,7 @@
 
 项目:
 1、规范
-2、工程化
-    - webpack 
-    - git commit / git hooks
-    - jenkins / travis CI
-    - Docker / k8s
-    - ci /cd
+2、工程化 - webpack - git commit / git hooks - jenkins / travis CI - Docker / k8s - ci /cd
 
 3、性能优化:骨架屏、ssr、webpack
 4、测试: mocha
@@ -537,8 +530,6 @@ koa
 理解 npm run dev - spa 单页应用
 npm run build / 部署到 testing ; 模块 spa , 页面 spa
 
-
-
 源码扩展:
 jquery
 vue
@@ -554,4 +545,4 @@ vuex\redux\flux\mobx
 3、V8 内存管理： > 1. js 垃圾收集、内存管理 > 2. V8 回收机制分类 > 3. 引用计数、标记清除、增量标记
 
 必要练习:
-    1、CI : git hooks -> jenkins [dist] -> 免密 ssh 部署 [scp \ shell [启动node]]
+1、CI : git hooks -> jenkins [dist] -> 免密 ssh 部署 [scp \ shell [启动 node]]
