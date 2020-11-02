@@ -78,9 +78,8 @@
   12、错误类型
   13、事件传播机制
   14、事件委托、代理
-    event.target
-    15、拆箱 / 装箱
-    
+  event.target
+  15、拆箱 / 装箱
 
   如何让事件先冒泡后捕获
   如何使用事件，以及 IE 和标准 DOM 事件模型之间存在的差别。
@@ -187,14 +186,16 @@
   1、 history API
 
 - ES6+
-    1、es6+ 增加特性
+  1、es6+ 增加特性
 - TS
+
   1. 装饰器 2.比较优点
 
-  - JS引擎
+  - JS 引擎
     - JIT
     - 延迟编译
     - 实施重编译
+
 - 浏览器
   1、浏览器的构成和运行机制。
   2、浏览器内核。
@@ -202,6 +203,8 @@
   4、浏览器缓存机制。
   5、浏览器的渲染原理。
   6、浏览器的安全性：跨域和攻击。
+  跨域：
+  fiddler & charles 代理
   7、perfermance 监控
   1、输入 url 到展示页面过程发生了什么？ - ip 查询:本地 host \ DNS - 防火墙 - 数据链路 - 服务器:代理、负载均衡、集群 - CDN - 页面渲染: js html css 加载顺序
   2、重绘与回流
@@ -347,8 +350,11 @@
   多端开发
   ----- 题 -----
   1、Native 监听页面渲染性能
+  2、了解 netflix 如果实现 android 与 ios 共用一套代码
+
   GIT
   git 基本命令
+
 - 前沿技术
   1、微前端: single-spa\qiankun
   1、ReactNative
@@ -373,6 +379,8 @@
   20、chrome 插件
   21、增强障碍用户的体验
   22、i18n 兼容多语言
+  23、f2etest 多浏览器兼容性测试整体解决方案
+  24、GraphLearn 神经网络框架
 
 - QA 调试
   前端: 1. debugger 2.事件绑定 3.audits 4.performance 5.timing 6.sourceMap
@@ -474,7 +482,6 @@
   8、设计模式
   9、编译原理
 
-
   > UML 模型图
   > -- 类图和对象图 【依赖关系、泛化关系、实现关系、关联关系、聚合关系、组合关系】
   > -- 活动图、时序图、协作图、组件图、部署图
@@ -547,6 +554,11 @@
 koa
 理解 npm run dev - spa 单页应用
 npm run build / 部署到 testing ; 模块 spa , 页面 spa
+静态资源处理 组织、打包 md5
+passport
+页面转化漏斗模型
+SEO SEM
+实地推广
 
 源码扩展:
 jquery
@@ -562,8 +574,8 @@ vuex\redux\flux\mobx
 2、ssr \ csr \ mpa \ spa 概念理解
 3、V8 内存管理： > 1. js 垃圾收集、内存管理 > 2. V8 回收机制分类 > 3. 引用计数、标记清除、增量标记
 4、长列表展示 瀑布流
-    减少dom
-    控制位置 
+减少 dom
+控制位置
 
 必要练习:
 1、CI : git hooks -> jenkins [dist] -> 免密 ssh 部署 [scp \ shell [启动 node]]
