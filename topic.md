@@ -276,6 +276,7 @@
   gulp 流清洗
   rullup
   snowpack
+  prepack 静态函数 直接出结果
 - 框架
   概念:MVC/MVVM 状态管理
   Vue
