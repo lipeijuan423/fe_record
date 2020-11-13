@@ -342,6 +342,7 @@
   生命周期
   PureComponent
   Hooks
+  新状态管理库:recoil
 
   服务器渲染
   nuxt.js
