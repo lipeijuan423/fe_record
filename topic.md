@@ -383,6 +383,9 @@
   22、i18n 兼容多语言
   23、f2etest 多浏览器兼容性测试整体解决方案
   24、GraphLearn 神经网络框架
+  25、SDK 
+  26、recoil react状态管理器
+  27、react-reconciler 跨平台 
 
 - QA 调试
   前端: 1. debugger 2.事件绑定 3.audits 4.performance 5.timing 6.sourceMap
