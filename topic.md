@@ -474,6 +474,7 @@
   2、考验你的抽象思维和数学功底。
   3、将现实需求抽象成计算机代码的思维能力。 4. 编译原理
   5、计算机网络基础
+    hash值怎么实现O(1)
   OSI 七层模型
   TCP/IP 参考模型
   物理层
@@ -529,7 +530,8 @@
   1.websocket
   2.ajax 短轮询、长轮询
   3.sse Server-sent-events
-  4.websocket [node:socket.io] 11. 瀑布流
+  4.websocket [node:socket.io] 
+  11. 瀑布流
   12、图片占位、骨架屏
   13、离线缓存
   14、上传文件
@@ -553,6 +555,10 @@
 13、cli 命令行工具
 14、npm 包
 15、可配置页面
+底层原理：
+V8
+eg：v8怎么实现promise
+
 
 公司架构
 启动 node app.js
